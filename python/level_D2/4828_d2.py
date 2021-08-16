@@ -24,14 +24,14 @@ N개의 양의 정수에서 가장 큰 수와 가장 작은 수의 차이를 출
 #3 838110
 """
 
-def My_max_num(nums): #max 함수
+def My_max_num(nums):
     max_num = 0
     for num in nums:
         if num > max_num:
             max_num = num
     return max_num
 
-def My_min_num(nums): #min 함수
+def My_min_num(nums):
     min_num = nums[0]
     for num in nums:
         if num < min_num:

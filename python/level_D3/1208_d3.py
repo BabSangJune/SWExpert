@@ -1,6 +1,6 @@
 """
 날짜 : 2021.08.10
-학습 : SWEA D2
+학습 : SWEA D3
 제목 : 1208 [S/W 문제해결 기본] 1일차 - Flatten
 문제 :
 한 쪽 벽면에 다음과 같이 노란색 상자들이 쌓여 있다.
@@ -81,7 +81,6 @@ for tc in range(1, 11): #총 10개 test 케이스
 
 
     print('#{} {}'.format(tc, My_max_num(box_height) - My_min_num(box_height)))
-
             #이새끼 이러면 j1 돌고 다시 못돔
             # for k in range(len(box_height)): #box 인덱스
             #     if My_min_num(box_height) == box_height[k] and My_max_num(box_height) == box_height[j]:
